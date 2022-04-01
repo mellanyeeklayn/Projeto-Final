@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#545C0A"
+    android:backgroundTint="#B4DCC60B"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/idbateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:backgroundTint="#121010"
+        android:backgroundTintMode="add"
+        android:foregroundTint="#0E0E0E"
+        android:shadowColor="@color/black"
+        android:text="Bateria "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.395"
+        app:rippleColor="#151414"
+        app:strokeColor="#1C1B1B" />
+
+    <Button
+        android:id="@+id/idaplicacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplicações"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632" />
+</androidx.constraintlayout.widget.ConstraintLayout>
